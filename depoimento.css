@@ -1,0 +1,60 @@
+/* Depoimentos */
+.todos-os-depoimentos {
+    background: var(--cor-verde);
+    padding-top: 120px;
+    padding-bottom: 152px;
+    margin: 64px 0; 
+}
+.depoimento {
+    background: var(--cor-branca);
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    margin-top: 24px;
+}
+.depoimento p,
+.depoimento h3 {
+    color: #18191F;
+    font-size: 18px;
+}
+.depoimento p {
+    line-height: 32px; 
+    margin-bottom: 24px; 
+    margin-top: -30px;
+}
+.depoimento p,
+.depoimento h3,
+.depoimento h4 {
+    padding-left: 32px;
+}
+.textos-do-depoimento:before {
+    content: url(../imagens/aspas.png);
+}
+.depoimento h3 {
+    line-height: 28px;
+}
+.depoimento h4 {
+    font-size: var(--fonte-14);
+    line-height: 24px;
+    color: #969BAB;
+    font-weight: normal;
+}
+
+
+.titulo-historia {
+    position: relative;
+    z-index: 0;
+}
+
+.titulo-historia:before {
+    content: '';
+    width: 142px;
+    height: 120px;   
+    background-image: url(../imagens/aspas-grandes.png);
+    position: absolute;
+    bottom: 60px;
+    left: -110px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.4;
+} 

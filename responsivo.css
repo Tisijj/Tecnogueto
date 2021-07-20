@@ -1,0 +1,41 @@
+@media screen and (max-width: 30rem) {
+    .todos-os-blocos-de-recursos,
+    .banner,
+    .bloco-depoimentos,
+    .conteudo-do-header,
+    .conteudo-vamos-la,
+    .conteudo-conquistas,
+    .conteudo-gerencia-projetos,
+    .conteudo-rodape {
+        flex-direction: column;
+    }
+    .bloco-de-recusos,
+    .depoimento,
+    .coluna {
+        width: 100%;
+    }
+    .depoimento,
+    .margin-negative-110 .depoimento:first-child {
+        margin: 0;
+    }
+
+    .botoes-lojas {
+        margin-top: 1.25rem;
+        display: flex;
+    }
+
+    .imagem-celular {
+        height: auto;
+        display: block;
+    }
+
+    .todo-conteudo-gerencia-projetos .botoes-lojas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .margin-top-20 {
+        margin-top: 1.25rem;
+    }
+}
